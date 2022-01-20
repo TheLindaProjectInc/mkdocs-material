@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/squidfunk/mkdocs-material/actions"><img
-    src="https://github.com/squidfunk/mkdocs-material/workflows/build/badge.svg?branch=master"
+  <a href="https://github.com/TheLindaProjectInc/mkdocs-material/actions"><img
+    src="https://github.com/TheLindaProjectInc/mkdocs-material/workflows/build/badge.svg?branch=master"
     alt="Build"
   /></a>
   <a href="https://pypistats.org/packages/mkdocs-material"><img
