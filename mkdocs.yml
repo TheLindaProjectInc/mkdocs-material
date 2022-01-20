@@ -90,6 +90,8 @@ nav:
       - MRC Integration Technical Guide: mrc20/integration.md
     - Docker:
       - About: docker/about.md
+    - MyStakingWallet:
+      - Billing: mystakingwallet/billing.md
     - Links: links/links.md
     - FAQ: faq.md
   - Developers:
