@@ -21,7 +21,7 @@ Rather than an automatic monthly billing cycle, MSW billing will now operate on 
 
 ![billing_main.png](../assets/msw/billing_main.png)
 
-The new system will accept payment in **BTC** & **ETH** (MRX will be coming soon), transactions will be processed by our partner, CoinsPaid, with the funds credited to your MSW account on confirmation.
+The new system will accept payment in **BTC**, **ETH** & **MRX**, transactions will be processed by our partner, CoinsPaid, with the funds credited to your MSW account on confirmation.
 It is advised to set a low balance warning; you will be emailed when your balance reduces to this amount to remind you that top-up is required.
 
 ## Adding Credit
