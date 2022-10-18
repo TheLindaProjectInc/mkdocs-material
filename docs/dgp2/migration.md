@@ -33,7 +33,7 @@ This transaction doesn't need to send any MRX so we use 0 for the value.
 
 We should be able to use the minimum gas limit 250000 and gas price 0.00005. 
 
-The governor needs to sign the transaction, so replace `<GOVERNOR ADDRESS>` with your governor's address. 
+The governor needs to sign the transaction, so replace `<GOVERNOR ADDRESS>` with our governor's address. 
 
 We will use true for both broadcast and return change to sender.
 
@@ -49,6 +49,8 @@ Next we will call `enroll()` on the DGPv2 contract which takes no parameters, by
 This transaction needs to send a value of 7500000 MRX as collateral.
 
 We should be able to use the minimum gas limit 250000 and gas price 0.00005.
+
+The governor needs to sign the transaction, so replace `<GOVERNOR ADDRESS>` with our governor's address. 
 
 We will use true for both broadcast and return change to sender.
 ```
