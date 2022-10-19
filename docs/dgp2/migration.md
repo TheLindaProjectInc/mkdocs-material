@@ -1,15 +1,15 @@
 # DGPv2 Migration
 
 ## About the DGPv2 migration
-The DGPv2 migration is the mandatory process which all DGPv1 governors must perform to retrieve their collateral and enroll in the DGPv2 contracts. The reason for this migration is to fix bugs found within the DGPv1 contracts, unfortunately on the MainNet, causing a subsidy distribution error before the bug could be temporarily patched in [Metrix Core v4.0.9.1](https://github.com/TheLindaProjectInc/Metrix/releases/tag/4.0.9.1) fixing the subsidy error caused by the bug.
+The DGPv2 migration is the mandatory process which all DGPv1 governors must perform to retrieve their collateral and enroll in the DGPv2 contracts. The reason for this migration is to fix bugs found within the DGPv1 contracts. Unfortunately  these bugs were discovered on the MainNet, causing a subsidy distribution error before the bug could be temporarily patched in [Metrix Core v4.0.9.1](https://github.com/TheLindaProjectInc/Metrix/releases/tag/4.0.9.1).
 
 [Metrix Core v4.1.0.0](https://github.com/TheLindaProjectInc/Metrix/releases/tag/4.1.0.0) introduces MIP3, which will activate once miners have signaled they have updated to the new version, approving the upgrade to DGPv2. Once MIP3 is active this will signal to miners that DGPv2 should be used instead of DGPv1. DGPv1 will no longer be used to process block rewards or provide blockchain parameters to the miners, however can still process contract calls, like to unenroll. 
 
-DGPv2 on top of solving bugs in the DGP contracts, allows for greater functionality in terms of what types accounts can participate as governors. Smart contracts can now participate as governors, that allow the potential for things like delegated governors and more, which were not a possibility in the DGPv1 contracts.
+DGPv2 on top of solving bugs in the DGP contracts, allows for greater functionality in terms of what types accounts can participate as governors. Smart contracts can now participate as governors, which allows for potential uses like delegated governors and more. This functionality was not a possibility in the DGPv1 contracts.
 
 ### Issues solved in DGPv2
-- Use new Solidity compiler allowing any bugfixes and optimizations benefits
-- Allow both externally owned accounts and smart contracts to enroll as a governor
+- Use new Solidity compiler allowing to benefit from bugfixes and optimizations
+- Allow both externally owned accounts and smart contracts to enroll as governors
 - Convert `transfer` methods to `call` to allow gas forwarding
 - Fallback for failed governor subsidy reward (burn)
 - Fallback for failed governor collateral return (sent to Budget contract where governors can handle the failure via proposal)
@@ -65,7 +65,7 @@ Due to the nature of the bug found in the DGPv1 contracts, DGPv1 governors can n
 
 ### Will I need to wait for my governor to mature again?
 
-**Yes!** Enrolling in the DGPv2 contracts will require all new governors to wait for 1920 blocks (~48 hours) to receive governor rewards and 26880 blocks (~28 days) to be eligible to vote on budget proposals or DGP blockchain parameter updates.
+**Yes!** Enrolling in the DGPv2 contracts will require all new governors to wait for 1920 blocks (~48 hours) to receive governor rewards and 26880 blocks (~28 days) to be eligible to vote on budget proposals or DGP blockchain parameter proposals.
 
 
 ### What happens to any DGPv1 proposals?
