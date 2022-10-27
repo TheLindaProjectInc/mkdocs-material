@@ -14,6 +14,7 @@ DGPv2 on top of solving bugs in the DGP contracts, allows for greater functional
 - Fallback for failed governor subsidy reward (burn)
 - Fallback for failed governor collateral return (sent to Budget contract where governors can handle the failure via proposal)
 - Fallback for failed budget settlement (burn)
+- Min and Max values for chain parameters and fallbacks for when they are out of bounds
 - Check if lastreward > 0 also when checking governor winner
 
 
