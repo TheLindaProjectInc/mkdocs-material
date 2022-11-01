@@ -55,7 +55,7 @@ The governor needs to sign the transaction, so replace `<GOVERNOR ADDRESS>` with
 
 We will use true for both broadcast and return change to sender.
 ```
-sendtocontract "42d98057e271b08a20c0959665e9499a3c00e371" "e65f2a7e" 7500000 250000 0.00005 <GOVERNOR ADDRESS> true true
+sendtocontract "13a5933a1b786e8016178656145e36eccd0221f6" "e65f2a7e" 7500000 250000 0.00005 <GOVERNOR ADDRESS> true true
 ```
 
 
