@@ -57,7 +57,9 @@ These are the default installation directories of Altitude and Metrix Core.
 ### :fontawesome-brands-windows: Windows
 
 Use the start menu, run bar or Windows explorer address bar to navigate.
-**Altitude** : %AppData%\altitude-metrix-wallet
+
+**Altitude** : %AppData%\altitude-metrix-wallet 
+
 **Metrix Core** : %AppData%\MetrixCoin
  
 ### :fontawesome-brands-linux: Linux
@@ -65,6 +67,7 @@ Use the start menu, run bar or Windows explorer address bar to navigate.
 These are the default installation directories when installed from the AppImage.
 
 **Altitude** : ~/.config/altitude-metrix-wallet
+
 **Metrix Core** : ~/.metrixcoin
 
 
@@ -73,4 +76,5 @@ These are the default installation directories when installed from the AppImage.
 These are the default installation directories when installed from the DMG.
 
 **Altitude** : ~Library/Application Support/altitude-metrix-wallet
+
 **Metrix Core** : ~Library/Application Support/metrixcoin
