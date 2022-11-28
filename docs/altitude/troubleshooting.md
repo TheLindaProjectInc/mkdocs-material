@@ -13,6 +13,8 @@ This is a list of common issues we see. In some cases the fixes detailed below w
 ## Core Stopped Unexpectedly
 ![core_stopped.png](/assets/altitude/core_stopped.png)
 
+**MacOS** users see [here](https://docs.metrixcoin.com/troubleshooting/macos-manual-core) if you get this after clicking the update core button or on a new Altitude installation.
+
 This is a dialog displayed when Altitude detects that the core has crashed.
 In most cases this is when initially starting the client, and in most cases it's due to the core being unable to load the local copy of the blockchain. 
 The reasons for being unable to load the local blockchain are various and many. But the quick fix for all is normally the same.

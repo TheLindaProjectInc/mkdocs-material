@@ -93,6 +93,8 @@ nav:
     - MyStakingWallet:
       - Recover Deleted Wallets: mystakingwallet/recover-deleted-wallets.md
       - Billing: mystakingwallet/billing.md
+    - TroubleShooting:
+      - MacOS Manual Core Install: troubleshooting/macos-manual-core.md
     - Links: links/links.md
     - FAQ: faq.md
   - Developers:
