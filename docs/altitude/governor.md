@@ -13,7 +13,7 @@ Setting up a governor node is made fairly easy, when in altitude you press the g
 
 ## Rewards
 
-A governor node has a fixed reward, the first reward after starting the node can take up to 96 hours, after the first reward an expected reward will be received every ~48 hours while the governor node is running, the altitude wallet does not have to be online to receive rewards because the rewards are being sent to you from the governor contract. The annual return of a governor node is the same as the staking rewards. 10% annual of which 1% is sent to the developers funds.
+A governor node has a fixed reward, the first reward after starting the node can take up to 96 hours, after the first reward an expected reward will be received every ~48 hours while the governor node is running, the altitude wallet does not have to be online to receive rewards because the rewards are being sent to you from the governor contract. The annual return of a governor node is the same as the staking rewards. 5% annually of which 10% (0.5% of the total reward) is sent to the developers funds.
 
 ## Voting System
 
