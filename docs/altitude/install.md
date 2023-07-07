@@ -75,6 +75,6 @@ These are the default installation directories when installed from the AppImage.
 
 These are the default installation directories when installed from the DMG.
 
-**Altitude** : ~Library/Application Support/altitude-metrix-wallet
+**Altitude** : ~/Library/Application Support/altitude-metrix-wallet
 
-**Metrix Core** : ~Library/Application Support/metrixcoin
+**Metrix Core** : ~/Library/Application Support/metrixcoin
