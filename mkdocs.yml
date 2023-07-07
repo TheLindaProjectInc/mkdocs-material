@@ -5,7 +5,7 @@ site_author: The Metrixcoin Developers
 site_url: https://docs.metrixcoin.com
 
 # Copyright
-copyright: Copyright &copy; 2022 Metrixcoin Ltd
+copyright: Copyright &copy; 2023 The Metrixcoin Developers
 
 theme:
   name: material
@@ -85,6 +85,11 @@ nav:
       - Starting: core/starting.md
       - Command Glossary: core/commands.md
       - Exchange Usage Guide: core/exchange-usage-guide.md
+    - DGP:
+      - About the DGP: dgp/about.md
+      - Command Glossary: dgp/commands.md
+      - Migration to DGPv2: dgp/v2migration.md
+      - Migration to DGPv3: dgp/v3migration.md
     - MRC20:
       - About: mrc20/about.md
       - MRC Integration Technical Guide: mrc20/integration.md
