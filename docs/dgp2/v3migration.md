@@ -5,39 +5,37 @@ The DGPv3 migration is the mandatory process which all DGPv1 or v2 governors mus
 
 [Metrix Core v4.2.0.0](https://github.com/TheLindaProjectInc/Metrix/releases/tag/4.2.0.0) introduces [MIP5](https://github.com/TheLindaProjectInc/MIPs/blob/main/mip-5.md), which will activate once miners have signaled they have updated to the new version, approving the upgrade to DGPv3. Once MIP5 is active this will signal to the network that DGPv3 should be used instead of DGPv2. DGPv2 will no longer be used to process block rewards or provide blockchain parameters of the network, however can still process contract calls, like to unenroll. 
 
----
 
-
-# Migrating to DGPv3
+## Migrating to DGPv3
 Migrating from DGPv2 to DGPv3 requires 2 steps:
 - Unenroll from DGPv2
 - Enroll in DGPv3
 
-## MSW
+### MSW
 
-### Unenroll from v2
+#### Unenroll from v2
 
 Use the v2 unenrollment button present in the application. This will only show up if your blockchain is in sync and you have a governer registered on the old contract.
 
-### Enroll in v3
+#### Enroll in v3
 
 This can only be done once MIP5 is active and the activation block has passed. Attempting to enroll earier via the GUI will result in re-enrolling into DGPv2. For this reason the enrollment button will be disabled until DGPv3 is active on the network.
 
 ---
 
-## Altitude
+### Altitude
 
-### Unenroll from v2
+#### Unenroll from v2
 
 Use the v2 unenrollment button present in the application. This will only show up if your blockchain is in sync and you have a governer registered on the old contract.
 
-### Enroll in v3
+#### Enroll in v3
 
 This can only be done once MIP5 is active and the activation block has passed. Attempting to enroll earier via the GUI will result in re-enrolling into DGPv2. For this reason the enrollment button will be disabled until DGPv3 is active on the network.
 
 ---
 
-## Migrating to DGPv3 via CLI or Debug Console
+### Migrating to DGPv3 via CLI or Debug Console
 
 Migrating from DGPv2 to DGPv3 requires 2 steps:
 - Unenroll from DGPv2
